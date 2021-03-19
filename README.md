@@ -1,3 +1,13 @@
+## Background
+
+Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+
+Now, we know what you may be thinking: "Duh. It gets hotter..."
+
+But, if pressed, how would you prove it?
+
+![equatorsign](https://user-images.githubusercontent.com/76985209/111837203-beb5ac00-88b4-11eb-85ef-3afaa9a6357a.png)
+
 ## Part I - WeatherPy
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
@@ -31,7 +41,7 @@ Your final notebook must:
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 
-##Part II - VacationPy
+## Part II - VacationPy
 
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
@@ -46,6 +56,8 @@ To complete this part of the assignment,you will need to do the following:
 
 * Create a heat map that displays the humidity for every city from Part I.
 
+![heatmap](https://user-images.githubusercontent.com/76985209/111837244-d2611280-88b4-11eb-8c6d-6141e70acdf4.png)
+
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
 * A max temperature lower than 80 degrees but higher than 70.
@@ -58,3 +70,6 @@ To complete this part of the assignment,you will need to do the following:
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+![hotel_map](https://user-images.githubusercontent.com/76985209/111837253-db51e400-88b4-11eb-942a-f4ad41edca45.png)
+
