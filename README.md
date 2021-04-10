@@ -51,7 +51,7 @@ Now let's use your skills in working with weather data to plan future vacations.
 * Note: if you having trouble displaying the maps, try running jupyter nbextension enable --py gmaps in your environment and retry.
 
 
-To complete this part of the assignment,you will need to do the following:
+To complete,you will need to do the following:
 
 
 * Create a heat map that displays the humidity for every city from Part I.
